@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<configuration advanced="1">
+  <port>
+    <name>COM6</name>
+    <speed>19200</speed>
+    <parity>none</parity>
+  </port>
+  <modbus>
+    <slave>1</slave>
+    <externalfile>measurements.txt</externalfile>
+    <interval>1</interval>
+  </modbus>
+  <mysql>
+    <server>localhost</server>
+    <database>lab207</database>
+    <user>root</user>
+    <password></password>
+    <table>gazanalyzer</table>
+  </mysql>
+</configuration>
